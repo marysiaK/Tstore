@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -57,16 +60,17 @@
         <h2>Contact Us </h2>
 
         <form>
-            <div>
+            <div class="inline">
                 <label for="name">Name: </label><input type="text" placeholder="Enter your name" id="name" name="name">
             </div>
 
-            <div>
-                <label for="email">Email: </label><input type="email" placeholder="Enter your email" id="email" name="email">
+            <div class="inline">
+            <label for="email">Email: </label><input type="email" placeholder="Enter your email" id="email" name="email">
             </div>
 
-            <div>
-                <label for="message">Message: <textarea cols="30" rows="5" id="message" name="message"></textarea>
+            <div class="inline">
+                <label for="message">Message:</label>
+                <textarea cols="30" rows="5" id="message" name="message"></textarea>
             </div>
 
 
@@ -88,8 +92,8 @@
                 </select>
             </div> -->
 
-            <div>
-                <label for="subject">Subject:</label>
+            <div class="inline">
+            <label for="subject">Subject:</label>
                 <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
                 <datalist id="subjects">
                     <option value="returns"></option>
